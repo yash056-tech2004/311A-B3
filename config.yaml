@@ -1,0 +1,8 @@
+yamlexperiment:
+  name: "iris_classification_v1"
+  random_seed: 42
+model:
+  type: "RandomForest"
+  n_estimators: 100
+  max_depth: 5
+  test_size: 0.2
